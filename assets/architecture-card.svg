@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="1200" height="240" role="img" aria-label="Local Architecture Pipeline">
+<defs>
+  <style>
+    @keyframes flow1 { 0% { transform: translateX(0px); opacity: 0; } 30% { opacity: 1; } 70% { opacity: 1; } 100% { transform: translateX(40px); opacity: 0; } }
+    @keyframes flow2 { 0% { transform: translateX(0px); opacity: 0; } 30% { opacity: 1; } 70% { opacity: 1; } 100% { transform: translateX(40px); opacity: 0; } }
+    @keyframes pulseNode { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; filter: drop-shadow(0 0 6px #00f0ff); } }
+    .p-node { animation: pulseNode 2.5s ease-in-out infinite; }
+    .flow-dot { animation: flow1 2s linear infinite; }
+    .st-num { font: 700 11px 'Comfortaa','Inter','Segoe UI',-apple-system,sans-serif; letter-spacing: 1.5px; fill: #f2a65a; text-transform: uppercase; }
+    .st-title { font: 700 16px 'Comfortaa','Inter','Segoe UI',-apple-system,sans-serif; fill: #f4efe6; letter-spacing: 0.5px; }
+    .st-desc { font: 400 12.5px 'Comfortaa','Inter','Segoe UI',-apple-system,sans-serif; fill: #a5a29a; line-height: 1.4; }
+    .badge-t { font: 600 10.5px 'Comfortaa','Inter','Segoe UI',-apple-system,sans-serif; fill: #00f0ff; }
+  </style>
+</defs>
+<rect width="1200" height="240" rx="18" fill="#11131a" stroke="#222736" stroke-width="1"/>
+
+<!-- 4 Architectural Pillars -->
+<!-- Stage 1: Ingestion -->
+<g transform="translate(36, 40)">
+  <rect width="250" height="160" rx="14" fill="#171922" stroke="#222736"/>
+  <text class="st-num" x="20" y="32">01 // INGESTION</text>
+  <text class="st-title" x="20" y="58">Local Data Intake</text>
+  <text class="st-desc" x="20" y="86">PDFs, source code, and</text>
+  <text class="st-desc" x="20" y="106">system context parsed on</text>
+  <text class="st-desc" x="20" y="126">local disk memory.</text>
+  <rect x="20" y="138" width="130" height="22" rx="6" fill="#11131a" stroke="#222736"/>
+  <text class="badge-t" x="30" y="153">ZERO CLOUD LEAK</text>
+</g>
+
+<!-- Arrow 1 -->
+<g transform="translate(296, 120)">
+  <line x1="0" y1="0" x2="35" y2="0" stroke="#222736" stroke-width="2"/>
+  <circle class="flow-dot" cx="15" cy="0" r="3" fill="#f2a65a"/>
+</g>
+
+<!-- Stage 2: Synthesis -->
+<g transform="translate(341, 40)">
+  <rect width="250" height="160" rx="14" fill="#171922" stroke="#222736"/>
+  <text class="st-num" x="20" y="32" fill="#00f0ff">02 // ORCHESTRATION</text>
+  <text class="st-title" x="20" y="58">Multi-Model Mesh</text>
+  <text class="st-desc" x="20" y="86">Claude, GPT, Gemini,</text>
+  <text class="st-desc" x="20" y="106">Grok &amp; DeepSeek councils</text>
+  <text class="st-desc" x="20" y="126">with embedded MCP.</text>
+  <rect x="20" y="138" width="125" height="22" rx="6" fill="#11131a" stroke="#222736"/>
+  <text class="badge-t" x="30" y="153" fill="#f2a65a">PARALLEL DELIB</text>
+</g>
+
+<!-- Arrow 2 -->
+<g transform="translate(601, 120)">
+  <line x1="0" y1="0" x2="35" y2="0" stroke="#222736" stroke-width="2"/>
+  <circle class="flow-dot" cx="15" cy="0" r="3" fill="#00f0ff"/>
+</g>
+
+<!-- Stage 3: Storage -->
+<g transform="translate(646, 40)">
+  <rect width="250" height="160" rx="14" fill="#171922" stroke="#222736"/>
+  <text class="st-num" x="20" y="32" fill="#10b981">03 // STORAGE</text>
+  <text class="st-title" x="20" y="58">SQLite FTS5 &amp; RAG</text>
+  <text class="st-desc" x="20" y="86">Indexed vector stores,</text>
+  <text class="st-desc" x="20" y="106">PKCE auth tokens, and</text>
+  <text class="st-desc" x="20" y="126">encrypted local vaults.</text>
+  <rect x="20" y="138" width="140" height="22" rx="6" fill="#11131a" stroke="#222736"/>
+  <text class="badge-t" x="30" y="153" fill="#10b981">100% PERSISTENT</text>
+</g>
+
+<!-- Arrow 3 -->
+<g transform="translate(906, 120)">
+  <line x1="0" y1="0" x2="35" y2="0" stroke="#222736" stroke-width="2"/>
+  <circle class="flow-dot" cx="15" cy="0" r="3" fill="#10b981"/>
+</g>
+
+<!-- Stage 4: UX -->
+<g transform="translate(951, 40)">
+  <rect width="215" height="160" rx="14" fill="#171922" stroke="#222736"/>
+  <text class="st-num" x="20" y="32" fill="#a855f7">04 // RUNTIME</text>
+  <text class="st-title" x="20" y="58">Native Surface</text>
+  <text class="st-desc" x="20" y="86">Windows desktop app,</text>
+  <text class="st-desc" x="20" y="106">sub-100ms render, zero</text>
+  <text class="st-desc" x="20" y="126">browser tab clutter.</text>
+  <rect x="20" y="138" width="125" height="22" rx="6" fill="#11131a" stroke="#222736"/>
+  <text class="badge-t" x="30" y="153" fill="#a855f7">SUB-100MS DX</text>
+</g>
+
+<rect x="0.5" y="0.5" width="1199" height="239" rx="17.5" fill="none" stroke="#222736"/>
+</svg>

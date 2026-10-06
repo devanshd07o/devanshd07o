@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 80" width="1200" height="80" role="img" aria-label="Featured Systems">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 75" width="1200" height="75" role="img" aria-label="Featured Systems">
 <defs>
-  <linearGradient id="lineGlow" x1="0" y1="0" x2="1" y2="0">
+  <linearGradient id="lineGlow1" x1="0" y1="0" x2="1" y2="0">
     <stop offset="0%" stop-color="#f2a65a"/>
-    <stop offset="40%" stop-color="#7928ca"/>
+    <stop offset="40%" stop-color="#a855f7"/>
     <stop offset="100%" stop-color="#222736" stop-opacity="0.3"/>
   </linearGradient>
   <style>
@@ -12,10 +12,10 @@
     .sec-sub { font: 600 11px 'Comfortaa','Inter','Segoe UI',-apple-system,sans-serif; letter-spacing: 2px; fill: #8d8b85; text-transform: uppercase; }
   </style>
 </defs>
-<g transform="translate(10, 36)">
+<g transform="translate(10, 32)">
   <circle cx="6" cy="6" r="4.5" fill="#f2a65a" class="p-live"/>
-  <text x="22" y="14" class="sec-title">Featured Systems</text>
-  <text x="1180" y="12" class="sec-sub" text-anchor="end">5 SHIPPED V1 RUNTIMES · LOCAL-FIRST ARCHITECTURE</text>
+  <text x="22" y="14" class="sec-title">Featured Systems &amp; Software</text>
+  <text x="1180" y="12" class="sec-sub" text-anchor="end">5 SHIPPED V1 RUNTIMES · LOCAL-FIRST WORKSPACES</text>
 </g>
-<line x1="10" y1="62" x2="1190" y2="62" stroke="url(#lineGlow)" stroke-width="2"/>
+<line x1="10" y1="58" x2="1190" y2="58" stroke="url(#lineGlow1)" stroke-width="2"/>
 </svg>

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" width="1200" height="250" role="img" aria-label="Devansh Dubey Technical Toolchain">
+<defs>
+  <style>
+    .h-tag { font: 600 11px 'Comfortaa','Inter','Segoe UI',-apple-system,sans-serif; letter-spacing: 2px; fill: #8d8b85; text-transform: uppercase; }
+    .sec-t { font: 700 13.5px 'Comfortaa','Inter','Segoe UI',-apple-system,sans-serif; letter-spacing: 1px; fill: #f2a65a; text-transform: uppercase; }
+    .chip { font: 600 12.5px 'Comfortaa','Inter','Segoe UI',-apple-system,sans-serif; fill: #f4efe6; }
+    .chip-sub { font: 400 11px 'Comfortaa','Inter','Segoe UI',-apple-system,sans-serif; fill: #7a7770; }
+  </style>
+</defs>
+<rect width="1200" height="250" rx="18" fill="#11131a" stroke="#222736" stroke-width="1"/>
+
+<!-- Header -->
+<g transform="translate(36, 34)">
+  <circle cx="5" cy="5" r="4" fill="#f2a65a"/>
+  <text x="18" y="9" class="h-tag">ENGINEERING TOOLCHAIN // VERIFIED IN LOCAL-FIRST PRODUCTION</text>
+  <text x="1128" y="9" class="h-tag" text-anchor="end" fill="#6c6961">SHIPPED CODE ONLY</text>
+  <line x1="0" y1="20" x2="1128" y2="20" stroke="#222736" stroke-width="1"/>
+</g>
+
+<!-- 3 Columns -->
+<g transform="translate(36, 76)">
+  <text class="sec-t" x="0" y="0">▸ Languages &amp; Desktop Engines</text>
+  
+  <rect x="0" y="16" width="110" height="34" rx="8" fill="#171922" stroke="#222736"/>
+  <text class="chip" x="14" y="38">Python</text>
+  <text class="chip-sub" x="66" y="37">3.11+</text>
+
+  <rect x="120" y="16" width="120" height="34" rx="8" fill="#171922" stroke="#222736"/>
+  <text class="chip" x="134" y="38">TypeScript</text>
+
+  <rect x="250" y="16" width="115" height="34" rx="8" fill="#171922" stroke="#222736"/>
+  <text class="chip" x="264" y="38">JavaScript</text>
+
+  <rect x="0" y="60" width="95" height="34" rx="8" fill="#171922" stroke="#222736"/>
+  <text class="chip" x="14" y="82">Dart</text>
+
+  <rect x="105" y="60" width="105" height="34" rx="8" fill="#171922" stroke="#222736"/>
+  <text class="chip" x="119" y="82">Flutter</text>
+
+  <rect x="220" y="60" width="105" height="34" rx="8" fill="#171922" stroke="#222736"/>
+  <text class="chip" x="234" y="82">Electron</text>
+</g>
+
+<g transform="translate(425, 76)">
+  <text class="sec-t" x="0" y="0" fill="#00f0ff">▸ Local Storage &amp; AI Protocols</text>
+
+  <rect x="0" y="16" width="130" height="34" rx="8" fill="#171922" stroke="#222736"/>
+  <text class="chip" x="14" y="38">SQLite FTS5</text>
+
+  <rect x="140" y="16" width="150" height="34" rx="8" fill="#171922" stroke="#222736"/>
+  <text class="chip" x="154" y="38">Local Vector RAG</text>
+
+  <rect x="0" y="60" width="150" height="34" rx="8" fill="#171922" stroke="#222736"/>
+  <text class="chip" x="14" y="82">Embedded MCP</text>
+  <text class="chip-sub" x="114" y="81">SDK</text>
+
+  <rect x="160" y="60" width="160" height="34" rx="8" fill="#171922" stroke="#222736"/>
+  <text class="chip" x="174" y="82">Multi-Model APIs</text>
+</g>
+
+<g transform="translate(810, 76)">
+  <text class="sec-t" x="0" y="0" fill="#10b981">▸ Windows, Security &amp; Tools</text>
+
+  <rect x="0" y="16" width="140" height="34" rx="8" fill="#171922" stroke="#222736"/>
+  <text class="chip" x="14" y="38">Windows APIs</text>
+
+  <rect x="150" y="16" width="165" height="34" rx="8" fill="#171922" stroke="#222736"/>
+  <text class="chip" x="164" y="38">Chrome Extensions</text>
+
+  <rect x="0" y="60" width="160" height="34" rx="8" fill="#171922" stroke="#222736"/>
+  <text class="chip" x="14" y="82">Zero-Leak Sandbox</text>
+
+  <rect x="170" y="60" width="115" height="34" rx="8" fill="#171922" stroke="#222736"/>
+  <text class="chip" x="184" y="82">Git / GitHub</text>
+</g>
+
+<line x1="36" y1="190" x2="1164" y2="190" stroke="#222736" stroke-width="1"/>
+<text x="36" y="218" font-family="'Comfortaa','Inter','Segoe UI',-apple-system,sans-serif" font-size="12px" fill="#7a7770">AUTHENTICITY INVARIANT: No made-up buzzwords or fake cloud architectures. Every tool is shipped in the repositories above.</text>
+
+<rect x="0.5" y="0.5" width="1199" height="249" rx="17.5" fill="none" stroke="#222736"/>
+</svg>

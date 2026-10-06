@@ -3,7 +3,11 @@
 </p>
 
 <p align="center">
-  <img src="./assets/section-systems.svg" width="100%" alt="Featured Systems" />
+  <img src="./assets/typewriter-banner.svg" width="100%" alt="Live Telemetry Cockpit" />
+</p>
+
+<p align="center">
+  <img src="./assets/section-systems.svg" width="100%" alt="Featured Systems & Software" />
 </p>
 
 <table width="100%" style="border-collapse: collapse; border: none;">
@@ -37,6 +41,18 @@
   <a href="https://github.com/devanshd07o/ClaudeRotate">
     <img src="./assets/card-claude-rotate.svg" width="100%" alt="ClaudeRotate - Multi-Account Claude Switcher" />
   </a>
+</p>
+
+<p align="center">
+  <img src="./assets/section-architecture.svg" width="100%" alt="System Architecture Blueprint" />
+</p>
+
+<p align="center">
+  <img src="./assets/architecture-card.svg" width="100%" alt="Local Architecture Execution Pipeline" />
+</p>
+
+<p align="center">
+  <img src="./assets/stack-card.svg" width="100%" alt="Engineering Toolchain" />
 </p>
 
 <p align="center">

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 130" width="1200" height="130" role="img" aria-label="Live Developer Telemetry">
+<defs>
+  <style>
+    @keyframes cycle1 { 0%, 22% { opacity: 1; transform: translateY(0); } 25%, 100% { opacity: 0; transform: translateY(-10px); } }
+    @keyframes cycle2 { 0%, 24% { opacity: 0; transform: translateY(10px); } 26%, 47% { opacity: 1; transform: translateY(0); } 50%, 100% { opacity: 0; transform: translateY(-10px); } }
+    @keyframes cycle3 { 0%, 49% { opacity: 0; transform: translateY(10px); } 51%, 72% { opacity: 1; transform: translateY(0); } 75%, 100% { opacity: 0; transform: translateY(-10px); } }
+    @keyframes cycle4 { 0%, 74% { opacity: 0; transform: translateY(10px); } 76%, 97% { opacity: 1; transform: translateY(0); } 100% { opacity: 0; transform: translateY(-10px); } }
+    @keyframes blinkCursor { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    @keyframes eq1 { 0%, 100% { height: 6px; y: 16px; } 50% { height: 18px; y: 4px; } }
+    @keyframes eq2 { 0%, 100% { height: 14px; y: 8px; } 50% { height: 6px; y: 16px; } }
+    @keyframes eq3 { 0%, 100% { height: 8px; y: 14px; } 50% { height: 20px; y: 2px; } }
+    @keyframes eq4 { 0%, 100% { height: 18px; y: 4px; } 50% { height: 10px; y: 12px; } }
+
+    .t-l1 { animation: cycle1 14s infinite; }
+    .t-l2 { animation: cycle2 14s infinite; }
+    .t-l3 { animation: cycle3 14s infinite; }
+    .t-l4 { animation: cycle4 14s infinite; }
+    .cur { animation: blinkCursor 0.8s infinite; }
+    .e1 { animation: eq1 0.7s ease-in-out infinite; }
+    .e2 { animation: eq2 0.9s ease-in-out infinite; }
+    .e3 { animation: eq3 0.6s ease-in-out infinite; }
+    .e4 { animation: eq4 0.8s ease-in-out infinite; }
+    .label { font: 600 11px 'Comfortaa','Inter','Segoe UI',-apple-system,sans-serif; letter-spacing: 2px; fill: #8d8b85; text-transform: uppercase; }
+    .stream { font: 700 19px 'Comfortaa','Inter','Segoe UI',-apple-system,sans-serif; letter-spacing: 0.5px; }
+  </style>
+</defs>
+<rect width="1200" height="130" rx="18" fill="#11131a" stroke="#222736" stroke-width="1"/>
+<rect width="4" height="130" rx="2" fill="#00f0ff"/>
+
+<!-- Top line -->
+<g transform="translate(36, 32)">
+  <circle cx="5" cy="5" r="4" fill="#00f0ff"/>
+  <text x="18" y="9" class="label">LIVE TELEMETRY COCKPIT // DEV_KERNEL ACTIVE</text>
+  <text x="1080" y="9" class="label" text-anchor="end" fill="#6c6961">LOC: 28.61° N · INDIA</text>
+  <line x1="0" y1="20" x2="1128" y2="20" stroke="#222736" stroke-width="1"/>
+</g>
+
+<!-- Animated Typewriter Stream Lines -->
+<g transform="translate(36, 88)">
+  <g class="t-l1">
+    <text class="stream" x="0" y="0" fill="#f4efe6">“Building things that shouldn't be possible (yet). AI × Web × Automation.”</text>
+  </g>
+  <g class="t-l2">
+    <text class="stream" x="0" y="0" fill="#f2a65a">▸ Zero cloud leaks. 100% on-device SQLite FTS5 &amp; local document intelligence.</text>
+  </g>
+  <g class="t-l3">
+    <text class="stream" x="0" y="0" fill="#00f0ff">▸ Multi-model desktop councils: Claude, ChatGPT, Gemini, Groq &amp; DeepSeek.</text>
+  </g>
+  <g class="t-l4">
+    <text class="stream" x="0" y="0" fill="#10b981">▸ High-throughput desktop engines with sub-100ms native latency.</text>
+  </g>
+</g>
+
+<!-- Audio Equalizer visual in top-right -->
+<g transform="translate(1110, 22)">
+  <rect class="e1" x="0" width="3.5" rx="1.5" fill="#00f0ff"/>
+  <rect class="e2" x="7" width="3.5" rx="1.5" fill="#f2a65a"/>
+  <rect class="e3" x="14" width="3.5" rx="1.5" fill="#10b981"/>
+  <rect class="e4" x="21" width="3.5" rx="1.5" fill="#a855f7"/>
+</g>
+
+<rect x="0.5" y="0.5" width="1199" height="129" rx="17.5" fill="none" stroke="#222736"/>
+</svg>
