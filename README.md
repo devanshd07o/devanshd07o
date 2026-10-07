@@ -38,12 +38,6 @@
 </table>
 
 <p align="center">
-  <a href="https://github.com/devanshd07o/ClaudeRotate">
-    <img src="./assets/card-claude-rotate.svg" width="100%" alt="ClaudeRotate - Multi-Account Claude Switcher" />
-  </a>
-</p>
-
-<p align="center">
   <img src="./assets/section-architecture.svg" width="100%" alt="System Architecture Blueprint" />
 </p>
 
